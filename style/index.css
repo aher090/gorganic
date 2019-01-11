@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.logo{
+	background: url(../images/logo.png) no-repeat -5px -35px;
+    background-size: 75%;
+    height: 173px;
+    width: 500px;
+    display: inline-block;
+}
+.title{
+
+}
+.navigation {
+    width: 40%;
+    float: right;
+    height: 173px;
+    padding-top: 90px;
+}
+.navigation li{
+	display: inline-block;
+    width: 33.33;
+    float: left;
+    padding-left: 12px;
+    text-align: center;
+}
+.services{
+	margin-top: 30px;
+	text-align: center;
+}
+.services li{
+	display: inline-block;
+    margin: 0px 30px;
+}
+.plan-banner, .contact-details {
+	margin-top: 30px;
+	border: 2px double #000;
+	padding-top: 20px;
+}
+.plan-banner ul{
+	padding-top: 30px; 
+}
+.plan-banner li{
+	display: inline-block;
+    float: left;
+    width: 38%;
+    border: 1px solid #CCC;
+    margin: 0 72px;
+    padding: 5px;
+}
+.plan-banner li p:first-child{
+	font-weight: bold
+}
+.plan-banner .note{
+	clear: left;
+    padding: 20px 70px;
+}
+.plan-banner h3{
+	text-align: center;
+}

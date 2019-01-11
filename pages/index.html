@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GOrganic | Home</title>
+    <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../style/index.css" />
+    <link rel="stylesheet" href="../style/jquery.slide.css" />
+    <link rel="stylesheet" href="../style/normalize.css" />   
+  </head>
+  <body id="home">
+  	<header>
+  		<div class="logo"></div>
+  		<div class="navigation">
+  			<ul>
+  				<li><a href="#home">Home</a></li>
+  				<li><a href="#about-us">About us</a></li>
+  				<li><a href="#plan-details">Plans</a></li>
+  				<li><a href="#contact-us">Contact us</a></li>
+  			</ul>
+  		</div>
+  	</header>
+
+  	<div class="slide">
+      <ul>
+        <li data-bg="../images/slide-1.jpg"></li>
+        <li data-bg="../images/slide-2.jpg"></li>
+        <li data-bg="../images/slide-3.jpg"></li>
+      </ul>
+    </div>
+
+    <div class="services" id="about-us">
+    	<ul>
+    		<li class="home-delivery">
+    			<span></span>
+    			<p class="name">HOME DELIVERY</p>
+    			<p class="desc">We deliver directely from farm to your house</p>
+    		</li>    		
+    		<li class="certified-farmers">
+    			<span></span>
+    			<p class="name">CERTIFIED FARMERS</p>
+    			<p class="desc">We have contracted only with certified farmers</p>
+    		</li>
+    		<li class="organic-food">
+    			<span></span>
+    			<p class="name">100% ORGANIC</p>
+    			<p class="desc">We deliver only 100% genuine organic products</p>
+    		</li>
+    	</ul>
+    </div>
+
+    <div class="plan-banner" id="plan-details">
+		<h3>We offer 2 types of delivery plans</h3>
+    	<ul>
+    		<li>
+    			<p>Monthly-Weekly subscription<p>
+    			<p class="desc">
+    				This takes care of your weekly requirement of Fresh vegetables & fruits. Here we try our best to provide you the veggies and fruits at economical prices. You can place the order on weekends.
+    			</p>
+    		</li>
+    		<li>
+    			<p>Monthly-Daily Subscription<p>
+    			<p class="desc">
+    				This plan takes care of your weekly requirement of Fresh vegetables & fruits. Here we try our best to provide you the veggies and fruits at economical prices. You can place the order on weekends.
+    			</p>
+    		</li>
+    	</ul>
+    	<p class="note">
+    		In addition to this, this plan helps to fulfill your small daily needs of vegetables & fruits. Price limit for home delivery will not be the constraint. Here, we recommend you to place the weekly orders because of the economical prices.
+    	</p>
+    </div>
+
+    <div class="contact-details" id="contact-us">
+    	<p class="phone-number">Whatsapp us your order on : +91-992344455</p>
+    	<p class="address">Solitaire paradise society, next to Club 29 sports mall, Pink city road, Wakad, Pune-411057</p>
+    </div>
+
+  	<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <script src="../script/jquery.slide.js"></script>
+    <script type="text/javascript">
+      $(function() {
+        $('.slide').slide({
+          'slideSpeed': 3000,
+          'isShowArrow': false,
+          'dotsEvent': 'mouseenter',
+          'isLoadAllImgs': true,
+          'isAutoSlide': true
+        });
+      });
+    </script>
+
+  </body>
+  </html>
